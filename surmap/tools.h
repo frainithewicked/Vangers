@@ -32,3 +32,4 @@ extern BitMap placeBMP;
 extern BitMap mosaicBMP;
 extern int curBmpIndex;
 
+
