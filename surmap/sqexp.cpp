@@ -805,29 +805,29 @@ iInputForm::iInputForm(sqElem* _owner,int _x,int _y,int _mode)
 		switch(MLstatus){
 		case 0:
 			if(!MLprocess)
-				*menu * new sqMenuBar((uchar*)RUS("Разрешить ML-анимацию"),menu);
+				*menu * new sqMenuBar((uchar*)("Enable ML-animation"),menu);
 			else
-				*menu * new sqMenuBar((uchar*)RUS("Запретить ML-анимацию"),menu);
-			*menu * new sqMenuBar((uchar*)RUS("Создание нового ML-объекта"),menu);
-			*menu * new sqMenuBar((uchar*)RUS("Покадровое редактирование существующих ML-объектов..."),menu);
-			*menu * new sqMenuBar((uchar*)RUS("Удаление ML-объектов..."),menu);
-			*menu * new sqMenuBar((uchar*)RUS("Редактирование параметров у существующих ML-объектов..."),menu);
-			*menu * new sqMenuBar((uchar*)RUS("Показать один из существующих ML-объектов..."),menu);
+				*menu * new sqMenuBar((uchar*)("Disable ML-animation"),menu);
+			*menu * new sqMenuBar((uchar*)("Create a new ML-animation"),menu);
+			*menu * new sqMenuBar((uchar*)("Edit existing ML-animation frames..."),menu);
+			*menu * new sqMenuBar((uchar*)("Delete ML-animations..."),menu);
+			*menu * new sqMenuBar((uchar*)("Edit ML-animation properties..."),menu);
+			*menu * new sqMenuBar((uchar*)("Find an existing ML-animation..."),menu);
 			break;
 		case 1:
-			*menu * new sqMenuBar((uchar*)RUS("Добавить кадр"),menu);
-			*menu * new sqMenuBar((uchar*)RUS("Закончить создание ML-объекта и записать его"),menu);
-			*menu * new sqMenuBar((uchar*)RUS("Прекратить создание ML-объекта без сохранения результатов"),menu);
+			*menu * new sqMenuBar((uchar*)("Add frame"),menu);
+			*menu * new sqMenuBar((uchar*)("Save and exit animation"),menu);
+			*menu * new sqMenuBar((uchar*)("Exit animation without saving"),menu);
 			break;
 		case 2:
-			*menu * new sqMenuBar((uchar*)RUS("[G] Перейти на один из существующих кадров..."),menu);
-			*menu * new sqMenuBar((uchar*)RUS("[A] Запомнить изменения текущего кадра"),menu);
-			*menu * new sqMenuBar((uchar*)RUS("[Q] Восстановить кадр в его начальное состояние"),menu);
-			*menu * new sqMenuBar((uchar*)RUS("[N] Вставить новый кадр"),menu);
-			*menu * new sqMenuBar((uchar*)RUS("[D] Удалить текущий кадр"),menu);
-			*menu * new sqMenuBar((uchar*)RUS("Изменить параметры ML-объекта"),menu);
-			*menu * new sqMenuBar((uchar*)RUS("Закончить редактирование ML-объекта и сохранить все изменения"),menu);
-			*menu * new sqMenuBar((uchar*)RUS("Прекратить редактирование без сохранения всех изменений"),menu);
+			*menu * new sqMenuBar((uchar*)("[G] Go to an existing frame..."),menu);
+			*menu * new sqMenuBar((uchar*)("[A] Save frame edits"),menu);
+			*menu * new sqMenuBar((uchar*)("[Q] Reset frame edits"),menu);
+			*menu * new sqMenuBar((uchar*)("[N] Insert new frame"),menu);
+			*menu * new sqMenuBar((uchar*)("[D] Delete current frame"),menu);
+			*menu * new sqMenuBar((uchar*)("Edit current ML-animation properties"),menu);
+			*menu * new sqMenuBar((uchar*)("Save and exit animation"),menu);
+			*menu * new sqMenuBar((uchar*)("Exit animation without saving"),menu);
 			break;
 		}
 			if(copt >= 6) copt = 5;
