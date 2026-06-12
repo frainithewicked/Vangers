@@ -1,6 +1,6 @@
 
 //const RTO_SURMAP_TIMER	= CLOCKS_PER_SEC/20;
-const int RTO_SURMAP_TIMER	= 0;
+const int RTO_SURMAP_TIMER	= 1000/30;
 
 // Runtime objects...
 enum SurmapRuntimeObjID
