@@ -801,6 +801,7 @@ void MobileLocation::makeCopy(MobileLocation* p)
 		table[i] = p -> table[i];
 		f = table + i;
 		ff = p -> table + i;
+		if(ff -> delta) {
 		memcpy(f -> delta = new uchar[f -> sz],ff -> delta,f -> sz);
 	} else {
 		if(ff -> c_delta) {
