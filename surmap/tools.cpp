@@ -963,7 +963,7 @@ void VLsave(void)
 
 	XBuffer buf;
 
-	buf < "DATA.VOT\\" < VLfilenames[VLmode] < ".VLC";
+	buf < "DATA.VOT\\" < VLfilenames[VLmode] < ".vlc";
 	XStream ff(GetTargetName(buf.GetBuf()),XS_OUT);
 	ff.write(VLCsign[VLmode],strlen(VLCsign[VLmode]));
 
