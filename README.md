@@ -2,7 +2,7 @@
 
 ![Vangers](http://cdn.akamai.steamstatic.com/steam/apps/264080/header.jpg?t=1447359431)
 
-![Vangers CI](https://github.com/KranX/Vangers/workflows/Vangers%20Linux%20Build/badge.svg)
+[![Vangers Linux Build](https://github.com/frainithewicked/Vangers/actions/workflows/vangers_linux_build.yml/badge.svg)](https://github.com/frainithewicked/Vangers/actions/workflows/vangers_linux_build.yml)
 ![Vangers CI](https://github.com/KranX/Vangers/workflows/Vangers%20Windows%2064bit%20Build/badge.svg)
 ![Vangers CI](https://github.com/KranX/Vangers/workflows/Vangers%20Windows%2032bit%20Build/badge.svg)
 ![Vangers CI](https://github.com/KranX/Vangers/workflows/Vangers%20MacOS%20Build/badge.svg)
