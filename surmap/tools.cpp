@@ -802,10 +802,20 @@ void MobileLocation::makeCopy(MobileLocation* p)
 		f = table + i;
 		ff = p -> table + i;
 		memcpy(f -> delta = new uchar[f -> sz],ff -> delta,f -> sz);
-		if(f -> terrain)
-			memcpy(f -> terrain = new uchar[f -> sz],ff -> terrain,f -> sz);
-		memcpy(f -> signBits = new unsigned[f -> ss],ff -> signBits,f -> ss*4);
+	} else {
+		if(ff -> c_delta) {
+			f -> c_delta = new uchar[ff -> csd];
+			memcpy(f -> c_delta, ff -> c_delta, ff -> csd);
 		}
+	}
+	if(f -> terrain)
+		memcpy(f -> terrain = new uchar[f -> sz],ff -> terrain,f -> sz);
+	else if(ff -> c_terrain) {
+		f -> c_terrain = new uchar[ff -> cst];
+		memcpy(f -> c_terrain, ff -> c_terrain, ff -> cst);
+	}
+	memcpy(f -> signBits = new unsigned[f -> ss],ff -> signBits,f -> ss*4);
+	}
 	
 	memcpy(steps = new int[maxFrame],p -> steps,maxFrame*sizeof(int));
 	alt = new MLAtype[altSx*altSy];
