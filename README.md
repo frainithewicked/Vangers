@@ -9,7 +9,7 @@
 [![Join the chat at https://t.me/vangers](https://patrolavia.github.io/telegram-badge/chat.svg)](https://t.me/vangers)
 
 
-Video game that combines elements of the racing and role-playing genres.
+Vangers is a video game that combines elements of the racing and role-playing genres.
 
 All source code is published under the GPLv3 license.
 
