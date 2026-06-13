@@ -5,7 +5,7 @@
 [![Vangers Linux Build](https://github.com/frainithewicked/Vangers/actions/workflows/vangers_linux_build.yml/badge.svg)](https://github.com/frainithewicked/Vangers/actions/workflows/vangers_linux_build.yml)
 [![Vangers Windows 64bit Build](https://github.com/frainithewicked/Vangers/actions/workflows/vangers_windows_64_build.yml/badge.svg)](https://github.com/frainithewicked/Vangers/actions/workflows/vangers_windows_64_build.yml)
 [![Vangers Windows 32bit Build](https://github.com/frainithewicked/Vangers/actions/workflows/vangers_windows_32_build.yml/badge.svg)](https://github.com/frainithewicked/Vangers/actions/workflows/vangers_windows_32_build.yml)
-![Vangers CI](https://github.com/KranX/Vangers/workflows/Vangers%20MacOS%20Build/badge.svg)
+[![Vangers MacOS Build](https://github.com/frainithewicked/Vangers/actions/workflows/vangers_macos_build.yml/badge.svg)](https://github.com/frainithewicked/Vangers/actions/workflows/vangers_macos_build.yml)
 [![Join the chat at https://t.me/vangers](https://patrolavia.github.io/telegram-badge/chat.svg)](https://t.me/vangers)
 
 
