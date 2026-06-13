@@ -13,7 +13,7 @@ Vangers is a video game that combines elements of the racing and role-playing ge
 
 All source code is published under the GPLv3 license.
 
-The necessary resources for the game (maps, sounds, textures, etc.) you can take from the games purchased here:
+While this repository does contain all of the Vangers source code, it does not contain many of the visual assets required to run the game. These assets can be obtained via purchase here:
 
 http://store.steampowered.com/app/264080
 
